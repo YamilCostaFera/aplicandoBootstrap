@@ -3,7 +3,7 @@ li {
     list-style: none;
 }
 
-.header{
+.header, .footer{
     background-image: linear-gradient(to right, rgb(53, 4, 53), white);
     border-bottom: 3px black;
 }
@@ -16,10 +16,87 @@ li {
     text-shadow: 1px gold;
 }
 
+/* NAVBAR */
 .barra{
-    background-image: linear-gradient(to right, black, white);
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    border-top: white solid 1px;
+}   
+
+a {
+    color: white;
 }
 
-.nav-color {
-    color: white;
+
+/* MAIN */
+
+.somos{
+    text-align: center;
+    font-family: arial;
+    color: #280233;
+    padding: 3px 0px;
+    margin-top: 20px;
+    
+}
+.p-pres{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/* ASIDE */
+.div-noticias{
+    padding: 20px 5px;
+    
+}
+#tarjetas {
+    margin-left: 55px;
+}
+
+.noticias {
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color: black;
+    padding: 10px 0px;
+}
+#div-fotos{
+    padding-top: 30px;
+}
+
+#btn__{
+    background-color: #280233;
+    border: black solid 1px;
+}
+
+#btn__:hover{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    color: #280233;
+}
+
+/* SECTION */
+
+#fotos{
+    padding: 20px 0px;
+}
+
+#color-btn{
+    background-color: gold;
+}
+
+#color-btn-A{
+    background-color: white;
+}
+
+/* FOOTER */
+
+#datos{
+    margin-top: 20px;
+}
+
+.copy{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    padding: 5px 0px;
 }
