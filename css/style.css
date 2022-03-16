@@ -108,5 +108,29 @@ a {
 
 
 
-/* FAQS*/
+/* CONTACTO*/
 
+#btn__form{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    color: black;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btn__form:hover{
+    background-color:white;
+    color: #280233;
+    border: none;
+    transition-delay: 0.5s;
+    border-bottom: solid 2px #280233 ;
+    border-left: solid 2px #280233 ;
+    border-top: solid 1px #280233 ;
+    border-right: solid 1px #280233 ;
+}
+.form__texto{
+    background-color: #280233;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
