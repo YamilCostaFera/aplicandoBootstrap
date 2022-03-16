@@ -104,10 +104,6 @@ a {
 
 
 
-
-
-
-
 /* CONTACTO*/
 
 #btn__form{
@@ -133,4 +129,14 @@ a {
     color: white;
     border: none;
     border-radius: 10px;
+}
+
+
+/* NOSOTROS */
+#envolver{
+    float: right;
+}
+
+.nos__text{
+    text-align: justify;
 }
