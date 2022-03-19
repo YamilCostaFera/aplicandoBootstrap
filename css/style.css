@@ -20,12 +20,21 @@ li {
 .barra{
     background-image: linear-gradient(to right, rgb(53, 4, 53), white);
     border-top: white solid 1px;
+
 }   
 
-a {
+
+#colorNav {
     color: white;
 }
 
+#colorNav:hover {
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
 
 /* MAIN */
 
@@ -139,4 +148,24 @@ a {
 
 .nos__text{
     text-align: justify;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 575.98px) {
+
+    .resp-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .resp-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
